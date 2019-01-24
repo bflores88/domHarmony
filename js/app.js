@@ -79,6 +79,9 @@ matchElem4.innerHTML = 'Peko Chan';
 
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.
 
+var matchElem5 = document.getElementsByClassName('otherAge')[1];
+matchElem5.innerHTML = 'Age 68';
+
  //Final Boss Create your own profile into the page:
  //change image to match your profile
  //div with class name of firstName

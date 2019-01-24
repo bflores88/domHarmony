@@ -74,6 +74,9 @@ matchElem3.innerHTML = 'Single Mother';
 
 //13. In the div id matches section, target the second div element with the class name of firstName and change Name to Peko Chan.
 
+var matchElem4 = document.getElementsByClassName('firstName')[1];
+matchElem4.innerHTML = 'Peko Chan';
+
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.
 
  //Final Boss Create your own profile into the page:

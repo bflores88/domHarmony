@@ -52,6 +52,11 @@ data.appendChild(newDiv4);
 
 //9. In the div id profile section, create a paragraph element with an id of pro2 and create a your own profile for Ronald (at least 2 sentences).
 
+var newPar1 = document.createElement('p');
+newPar1.id = 'pro2';
+newPar1.innerHTML = "You won't get enough of my salty fries.  I got the best sauce for your nuggets.";
+profile.appendChild(newPar1);
+
 //10. In the div id matches section, target the first div element with the class name of firstName and change Name to Wendy.
 
 //11. In the div id matches section, target the first div element with the class name of otherAge and change Age to 48.

@@ -69,6 +69,9 @@ matchElem2.innerHTML = 'Age 48';
 
 //12. In the div id matches section, target the first div element with the class name of status and change Status to Single Mother.
 
+var matchElem3 = document.getElementsByClassName('status')[0];
+matchElem3.innerHTML = 'Single Mother';
+
 //13. In the div id matches section, target the second div element with the class name of firstName and change Name to Peko Chan.
 
 //14. In the div id matches section, target the second div element with the class name of otherAge and change Age to 68.

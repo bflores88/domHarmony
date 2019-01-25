@@ -82,13 +82,24 @@ matchElem4.innerHTML = 'Peko Chan';
 var matchElem5 = document.getElementsByClassName('otherAge')[1];
 matchElem5.innerHTML = 'Age 68';
 
- //Final Boss Create your own profile into the page:
- //change image to match your profile
- //div with class name of firstName
- //div with class name of otherAge
- //div with class name of status
- //div with class anem of Motto
+//Final Boss Create your own profile into the page:
+//change image to match your profile
+//div with class name of firstName
+//div with class name of otherAge
+//div with class name of status
+//div with class anem of Motto
 
+var brenMatch1 = document.getElementsByClassName('other')[2];
+brenMatch1.src = 'assets/brendaCat.jpg';
 
+var brenMatch2 = document.getElementsByClassName('firstName')[2];
+brenMatch2.innerHTML = 'MeowMeow'
 
+var brenMatch3 = document.getElementsByClassName('otherAge')[2];
+brenMatch3.innerHTML = 'Age 53';
 
+var brenMatch4 = document.getElementsByClassName('status')[2];
+brenMatch4.innerHTML = "It's Complicated";
+
+var brenMatch5 = document.getElementsByClassName('motto')[2];
+brenMatch5.innerHTML = 'Meow so hard';
